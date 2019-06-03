@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="https://static.pingendo.com/bootstrap/bootstrap-4.3.1.css">
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+
+<body>
+  <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">Meus anuncios</a>
+      <a href="galeria">Comprar</a>
+      <a href="#">SAIR</a>
+  </div>  
+  <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    <div class="container"> <a class="navbar-brand" href="menu">
+        <b> DoAlambique Systems</b>
+      </a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar16">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar16">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"> <a class="nav-link" href="#"></a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#"></a> </li>
+        </ul> <a class="btn navbar-btn ml-md-2 btn-light text-dark" href="crie-usuario">SAIR</a>
+      </div>
+    </div>
+  </nav>
+  <div class="py-5 text-center" style="background-image: url('https://static.pingendo.com/cover-bubble-dark.svg');background-size:cover;">
+    <div class="container">
+      <div class="row">
+        <div class="bg-white p-5 mx-auto col-md-8 col-10">
+          <h3 class="display-3 text-1">ANUNCIAR</h3>
+          <form id="c_form-h" class="">
+            <div class="form-group row"> <label for="inputmailh" class="col-2 col-form-label">Título</label>
+              <div class="col-10">
+                <input type="text" class="form-control" id="inputmailh"> </div>
+            </div>
+            <div class="form-group row"> <label for="inputpasswordh" class="col-2 col-form-label">Autores</label>
+              <div class="col-10">
+                <input type="text" class="form-control" id="inputpasswordh"> </div>
+            </div>
+            <div class="form-group row"> <label for="inputmailh" class="col-2 col-form-label">Edição</label>
+              <div class="col-10">
+                <input type="text" class="form-control" id="inputmailh"> </div>
+            </div>
+            <div class="form-group row"> <label for="inputmailh" class="col-2 col-form-label">Data da publicação</label>
+              <div class="col-10">
+                <input type="text" class="form-control" id="inputmailh"> </div>
+            </div>
+            <div class="form-group row"> <label for="inputmailh" class="col-2 col-form-label">ISBN</label>
+              <div class="col-10">
+                <input type="text" class="form-control" id="inputmailh"> </div>
+            </div>
+            <div class="form-group row"> <label for="inputmailh" class="col-2 col-form-label">Editora</label>
+              <div class="col-10">
+                <input type="text" class="form-control" id="inputmailh"> </div>
+            </div>
+            <div class="form-group row"> <label for="inputmailh" class="col-2 col-form-label">Imagem</label>
+              <div class="col-10">
+                <input name="arquivo" type="file" id="inputmailh" /> </div>
+            </div>
+            <button type="submit" class="btn btn-primary">anunciar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p class="mb-0" >© 2019 DoAlambique Systems. All rights reserved</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
